@@ -66,9 +66,6 @@ class Gallery extends Component {
                     >
                         <img src={obj.thumbnail} />
                     </a>
-
-                    <h3>{obj.caption}</h3>
-                    <p>{obj.description}</p>
                 </article>
             );
         });
