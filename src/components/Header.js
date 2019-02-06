@@ -7,13 +7,12 @@ class Header extends React.Component {
     render() {
         return (
             <header id="header">
-                <div className="inner">
+                <div className="outer">
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
                     <h1><strong>I'm Sarah</strong>, a student<br />
                     at Stanford University<br />
                     </h1>
                 </div>
-                <Footer />
             </header>
         )
     }

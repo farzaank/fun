@@ -988,7 +988,7 @@
 /* Main */
 
 	#main {
-		margin-left: $size-header-width;
+		margin-left: $size-header-width/1.4;
 		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
