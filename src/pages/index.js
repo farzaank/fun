@@ -133,7 +133,7 @@ class HomeIndex extends React.Component {
                 
 
                     <section id="one">
-                        <h2>Sarah Panzer Photography Portfolio</h2>
+                        <h2>Photography Portfolio</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail }) => ({
                             src,
