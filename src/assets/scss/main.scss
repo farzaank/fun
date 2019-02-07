@@ -914,7 +914,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: $size-header-width;
+		width: $size-header-width*0.5;
 
 		> * {
 			@include vendor('flex-shrink', '0');
